@@ -4,7 +4,7 @@
  * https://www.codeeval.com/open_challenges/16/
  */
 
-function count_ones($number) {
+function countOnes($number) {
 	$number = (int)$number;
 
 	$count = 0;
@@ -20,6 +20,6 @@ while (true) {
 	$test = fgets($fh);
 	if($test == '') break;
 
-	$str = sprintf("%d\n", count_ones($test));
+	$str = sprintf("%d\n", countOnes($test));
 	fwrite(STDOUT, $str);
 }
