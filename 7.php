@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Zadanie:
+ * https://www.codeeval.com/open_challenges/7/
+ */
+
 namespace CodeEval\PrefixExpression;
 
 /**
@@ -91,5 +96,3 @@ while (true) {
     $str = sprintf("%d\n", $processor->getResult());
     fwrite(STDOUT, $str);
 }
-
-// https://www.codeeval.com/open_challenges/7/
